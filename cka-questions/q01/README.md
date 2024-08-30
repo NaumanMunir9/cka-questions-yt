@@ -8,10 +8,4 @@ Next write a command to display the current context into `/opt/course/1/context_
 
 Finally, write a second command doing the same thing into `/opt/course/1/context_default_no_kubectl.sh`, but without the use of `kubectl`.
 
-## Answer 1
-
-```shell
-
-```
-
 ---
