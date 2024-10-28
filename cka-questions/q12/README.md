@@ -7,3 +7,4 @@ There should be only ever on Pod of that Deployment running on one worker node. 
 In a way we kind of simulate the behavior of a DaemonSet here, but using a Deployment and a fixed number a replicas.
 
 ---
+
