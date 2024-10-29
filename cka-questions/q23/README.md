@@ -171,3 +171,4 @@ kubectl apply -f <file_name>.yaml
 This setup should meet the requirements of the question and ensure restricted access as intended.
 
 ---
+
