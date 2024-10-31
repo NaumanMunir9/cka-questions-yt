@@ -1,8 +1,8 @@
 # Question 22
 
-Node `node01` has been added to the cluster using `kubeadm` and TLS bootstrapping.
+Node `kind-worker` has been added to the cluster using `kubeadm` and TLS bootstrapping.
 
-Find the "issue" and "Extended Key Usage" values of the `node01`:
+Find the "issue" and "Extended Key Usage" values of the `kind-worker`:
 
 1. kubelet **client** certificate, the one used for outgoing connections to the kube-apiserver.
 2. kubelet **server** certificate, the one used for incoming connectioons from the kube-apiserver.
