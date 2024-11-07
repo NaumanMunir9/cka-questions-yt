@@ -7,7 +7,7 @@ database_url: "jdbc:mysql://db-host:3306/app_db"
 log_level: "debug"
 ```
 
-Then, create a Pod named `configmap-pod` using the `busybox` image with the following requirements:
+Then, create a Pod named `configmap-pod` using the `nginx` image with the following requirements:
 
 1. Set the `database_url` key from the `app-config` ConfigMap as an environment variable named `DB_URL` inside the container.
 2. Mount the `app-config` ConfigMap as a volume to `/etc/config` in the container. Each key should become a file within this directory.
