@@ -1,10 +1,10 @@
 # Question 21
 
-Check how long the kube-apiserver server certificate is valid on `controlplane`. Do this with openssl of cfssl. Write the expiration date into `/tmp/opt/course/22/expiration`.
+Check how long the kube-apiserver server certificate is valid on `controlplane`. Do this with openssl of cfssl. Write the expiration date into `/tmp/opt/course/21/expiration`.
 
 Also run the correct `kubeadm` command to list the expiration dates and confirm both methods show the same date.
 
-Write the correct `kubeadm` command that would renew the apiserver server certificate into `/tmp/opt/course/22/kubeadm-renew-certs.sh`.
+Write the correct `kubeadm` command that would renew the apiserver server certificate into `/tmp/opt/course/21/kubeadm-renew-certs.sh`.
 
 ---
 

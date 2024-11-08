@@ -7,7 +7,7 @@ Find the "issue" and "Extended Key Usage" values of the `kind-worker`:
 1. kubelet **client** certificate, the one used for outgoing connections to the kube-apiserver.
 2. kubelet **server** certificate, the one used for incoming connectioons from the kube-apiserver.
 
-Write the information into file `/tmp/opt/course/23/certificate-info.txt`.
+Write the information into file `/tmp/opt/course/22/certificate-info.txt`.
 
 Compare the "Issuer" and "Extended Key Usage" fields of both certificates and make sense of these.
 

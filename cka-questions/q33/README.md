@@ -7,3 +7,4 @@ The job name should be `cron-job` and it should print the current `date` and `ti
 After running the job save any one of the pod logs to below path `/tmp/q33-cronjob-logs.txt`.
 
 ---
+
