@@ -1,7 +1,7 @@
-# Question 36
+# Question 35
 
-The existing kubernetes cluster is running version `1.30.0`, upgrade the master node and worker node to version `1.31.2`. 
+Add an init container named `init-container` (which has been defined in spec file `/home/master/opt/web-pod.yaml`).
 
-Drain the master and worker node before upgrading it and uncordon it after the upgrade.
+The init container should create an empty file named `/worker/conf.txt`. If `/workdir/conf.txt` is not detected, the pod should exit. Once the spec file has been updated with the init container definition, the pod should be created.
 
 ---
